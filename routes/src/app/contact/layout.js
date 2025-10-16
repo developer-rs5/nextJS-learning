@@ -1,12 +1,11 @@
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <h1>NavBar</h1>
+        
         {children}
+        <h1>contact foother</h1>
       </body>
     </html>
   );
